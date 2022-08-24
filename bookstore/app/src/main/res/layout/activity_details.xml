@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B49992"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgdet"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#A7796D"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/booktitledet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookcatdet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Lorem ipsum dolor sit amet,"
+            android:textColor="#FFD3CFCF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookdesdet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum orci sed placerat convallis. Nam aliquam tempor aliquam. Pellentesque ullamcorper sapien purus, in gravida elit dapibus in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue sagittis leo, a scelerisque ipsum. Phasellus tempor orci a mattis suscipit. Nam non lacus quis justo dignissim efficitur. In hac habitasse platea dictumst. Vivamus urna magna, pulvinar vitae felis ac, suscipit commodo turpis."
+            android:textColor="#D3CFCF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookprcdet"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="bottom"
+            android:text="TextView"
+            android:textColor="#FFD3CFCF" />
+    </LinearLayout>
+
+</LinearLayout>
